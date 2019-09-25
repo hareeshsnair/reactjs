@@ -1,4 +1,4 @@
-import { authHeader, config } from '../helpers';
+import { authHeader, config } from '../../helpers';
 import axios from 'axios'
 
 export const authService = {

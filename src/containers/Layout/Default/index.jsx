@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { userActions } from '../../../store/actions'
+import { connect } from 'react-redux'
 
-export default class index extends Component {
+class index extends Component {
     render() {
         return (
             <div>
@@ -9,3 +11,4 @@ export default class index extends Component {
         )
     }
 }
+export default connect()(index)
